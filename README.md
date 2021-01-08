@@ -33,3 +33,11 @@ received `5,000` messages in align with `mqtt-stresser-darwin-amd64 -broker tcp:
 ![received-messages-amout](img/received-messages-amount.png)
 
 i found after increaded `-num-clients 50 -num-messages 100` to higher like `-num-clients 1000 -num-messages 2000` will get bad result on my i7 Macbook.
+
+## references
+
+https://github.com/docker-library/rabbitmq/issues/273#issuecomment-412207393
+
+https://stackoverflow.com/a/39052040/6414615
+
+https://github.com/inovex/mqtt-stresser
