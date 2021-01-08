@@ -1,5 +1,4 @@
-.PHONY: build start clean 
-
+.PHONY: build start clean haproxy monitor stress
 
 build: 
 	docker build . -t rabbitmq-plugins
