@@ -1,0 +1,13 @@
+{
+  "name": "rabbitmq-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jasonh",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^4.2.6"
+  },
+  "scripts": {
+    "start": "node monitor.js"
+  }
+}
